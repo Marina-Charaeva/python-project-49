@@ -8,4 +8,4 @@ build:
 	uv build -o /home/charaeva/python-project-49/dist
 
 package-install:
-	uv tool install dist/*.whl
+	uv tool install /home/charaeva/python-project-49/dist/*.whl

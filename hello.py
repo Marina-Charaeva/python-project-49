@@ -1,4 +1,4 @@
-def main():
+def main1():
     print("Hello from python-project-49!")
 
 

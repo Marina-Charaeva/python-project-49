@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12, <4.0"
 dependencies = [
+    "brain-games>=0.5.1",
     "prompt>=0.4.1",
 ]
 

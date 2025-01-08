@@ -8,3 +8,5 @@ https://asciinema.org/a/2SjLlGjNkBHWl17qArG7pCOjS
 https://asciinema.org/a/vMmhnido4oDnfVxRcXGCOCrgo
 ### Video start the game brain_gcd:
 https://asciinema.org/a/kTugkynujT9I1UtwQQnUcTryp
+### Video start the game brain_progression:
+https://asciinema.org/a/ZqVTa6inczMfam6D0jb1RbHLH

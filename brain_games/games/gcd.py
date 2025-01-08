@@ -8,7 +8,7 @@ def main_gcd():
     # Задание на вычисление наибольшего общего делителя
     print('Find the greatest common divisor of given numbers.')
     for i in range(3):
-        # Рандомное целое число из диапазонаот 1 до 50
+        # Рандомное целое число из диапазонаот 1 до 100
         number1 = random.randrange(1, 100)
         number2 = random.randrange(1, 100)     
         print(f'Qustion: {number1} {number2}')

@@ -6,3 +6,5 @@
 https://asciinema.org/a/2SjLlGjNkBHWl17qArG7pCOjS
 ### Video start the game brain_calc:
 https://asciinema.org/a/vMmhnido4oDnfVxRcXGCOCrgo
+### Video start the game brain_gcd:
+https://asciinema.org/a/kTugkynujT9I1UtwQQnUcTryp

@@ -9,3 +9,12 @@ build:
 
 package-install:
 	uv tool install /home/charaeva/python-project-49/dist/*.whl
+
+make lint:
+	uv run ruff check brain_games
+
+brain-even:
+	uv run brain-even
+
+brain-calc:
+	uv run brain-calc

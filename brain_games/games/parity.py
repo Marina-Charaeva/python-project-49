@@ -25,8 +25,8 @@ def main_parity():
         if int == answer:
             right_answer()
         if int != answer:
-            print(f'"{int}" is wrong answer ;(. Correct answer was "{answer}". \
-                  \n Let\'s try again, {name}!')
+            print(f"'{int}' is wrong answer ;(. Correct answer was '{answer}'. \
+                  \n Let\'s try again, {name}!")
             break
     else:
         finish_game()

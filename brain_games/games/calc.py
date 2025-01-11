@@ -23,7 +23,7 @@ def main_calc():
         operator = random.choice(list(arithmetic.keys()))
         question = str(number1) + str(operator) + str(number2)
         answer = str(arithmetic[operator](number1, number2))
-        print(f'Qustion: {question}')
+        print(f'Question: {question}')
         int = prompt.string('Your answer: ')
         if int == answer:
             right_answer()

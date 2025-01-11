@@ -14,7 +14,7 @@ def main_gcd():
         # Рандомное целое число из диапазонаот 1 до 100
         number1 = random.randrange(1, 100)
         number2 = random.randrange(1, 100)     
-        print(f'Qustion: {number1} {number2}')
+        print(f'Question: {number1} {number2}')
         int = prompt.string('Your answer: ')
         if number1 == number2:
             answer = str(number1)

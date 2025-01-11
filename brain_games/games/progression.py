@@ -27,7 +27,7 @@ def main_progression():
         answer = str(list[position])
         list[position] = '..'
         question = ' '.join(map(str, list))
-        print(f'Qustion: {question}')
+        print(f'Question: {question}')
         int = prompt.string('Your answer: ')
         if int == answer:
             right_answer()

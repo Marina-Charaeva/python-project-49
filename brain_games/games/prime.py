@@ -24,7 +24,7 @@ def main_prime():
                 break
         else:
             answer = simple
-        print(f'Qustion: {number}')
+        print(f'Question: {number}')
         int = prompt.string('Your answer: ')
         if int == answer:
             right_answer()

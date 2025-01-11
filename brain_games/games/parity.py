@@ -20,7 +20,7 @@ def main_parity():
             answer = even
         else:
             answer = odd
-        print(f'Qustion: {number}')
+        print(f'Question: {number}')
         int = prompt.string('Your answer: ')
         if int == answer:
             right_answer()

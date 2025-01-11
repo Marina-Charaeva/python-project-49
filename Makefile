@@ -1,14 +1,14 @@
 install:
-	uv sync
+	uv sync --force-reinstall
 
 brain-games:
 	uv run brain-games
 
 build:
-	uv build -o /home/charaeva/python-project-49/dist
+	uv build -o python-project-49/dist
 
 package-install:
-	uv tool install /home/charaeva/python-project-49/dist/*.whl
+	uv tool install --force dist/*.whl
 
 make lint:
 	uv run ruff check brain_games

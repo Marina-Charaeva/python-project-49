@@ -9,5 +9,10 @@ def welcome():
     print(f'Hello, {name}!')
     return (name)
 
+
+def right_answer():
+    print('Correct!')
+
+
 def finish_game():
     print(f'Congratulations, {name}!')

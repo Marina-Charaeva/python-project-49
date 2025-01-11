@@ -1,5 +1,8 @@
-import prompt, random
-from brain_games.games.sample import welcome, finish_game
+import random
+
+import prompt
+
+from brain_games.games.sample import finish_game, right_answer, welcome
 
 
 def main_calc():
@@ -23,10 +26,10 @@ def main_calc():
         print(f'Qustion: {question}')
         int = prompt.string('Your answer: ')
         if int == answer:
-            print('Correct!')
+            right_answer()
         if int != answer:
-            print(f"'{int}' is wrong answer ;(. Correct answer was '{answer}'. \
-                  \n Let's try again, {name}!")
+            print(f'"{int}" is wrong answer ;(. Correct answer was "{answer}". \
+                  \n Let\'s try again, {name}!')
             break
     else:
         finish_game()

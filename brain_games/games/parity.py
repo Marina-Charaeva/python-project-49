@@ -1,5 +1,8 @@
-import prompt, random
-from brain_games.games.sample import welcome, finish_game
+import random
+
+import prompt
+
+from brain_games.games.sample import finish_game, right_answer, welcome
 
 
 def main_parity():
@@ -11,19 +14,19 @@ def main_parity():
     for i in range(3):
         # Рандомное целое число из диапазонаот 1 до 99
         number = random.randrange(1, 99)
+        even = 'yes'
+        odd = 'no'
+        if number % 2 == 0:
+            answer = even
+        else:
+            answer = odd
         print(f'Qustion: {number}')
-        int = prompt.string(f'Your answer: ')
-        if (int == 'yes') and (number % 2 == 0):
-            print('Correct!')
-        if (int == 'no') and (number % 2 != 0):
-            print('Correct!')
-        if (int != 'yes') and (number % 2 == 0):
-            print(f"'{int}' is wrong answer ;(. Correct answer was 'yes'. 
-                  \n Let's try again, {name}!")
-            break
-        if (int != 'no') and (number % 2 != 0):
-            print(f"'{int}' is wrong answer ;(. Correct answer was 'no'. 
-                  \n Let's try again, {name}!")
+        int = prompt.string('Your answer: ')
+        if int == answer:
+            right_answer()
+        if int != answer:
+            print(f'"{int}" is wrong answer ;(. Correct answer was "{answer}". \
+                  \n Let\'s try again, {name}!')
             break
     else:
         finish_game()

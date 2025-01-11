@@ -1,5 +1,8 @@
-import prompt, random
-from brain_games.games.sample import welcome, finish_game
+import random
+
+import prompt
+
+from brain_games.games.sample import finish_game, right_answer, welcome
 
 
 def main_progression():
@@ -15,7 +18,7 @@ def main_progression():
         # Длина ряда
         length = random.randrange(5, 10)
         # Позиция в ряду, которую будет рассчитвать пользователь
-        position = random.randrange(0, length-1)
+        position = random.randrange(0, length - 1)
         list = [start, ]
         for i in range(length):
             next_step = start + step
@@ -27,10 +30,10 @@ def main_progression():
         print(f'Qustion: {question}')
         int = prompt.string('Your answer: ')
         if int == answer:
-            print('Correct!')
+            right_answer()
         if int != answer:
-            print(f"'{int}' is wrong answer ;(. Correct answer was '{answer}'. \
-                  \n Let's try again, {name}!")
+            print(f'"{int}" is wrong answer ;(. Correct answer was "{answer}". \
+                  \n Let\'s try again, {name}!')
             break
     else:
         finish_game()

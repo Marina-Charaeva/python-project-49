@@ -1,5 +1,8 @@
-import prompt, random
-from brain_games.games.sample import welcome, finish_game
+import random
+
+import prompt
+
+from brain_games.games.sample import finish_game, right_answer, welcome
 
 
 def main_prime():
@@ -15,19 +18,19 @@ def main_prime():
         number = random.randrange(0, 500)
         if number <= 1:
             answer = no_simple
-        for i in range (2, number):
+        for i in range(2, number):
             if number % i == 0:
                 answer = no_simple
                 break
         else:
             answer = simple
         print(f'Qustion: {number}')
-        int = prompt.string(f'Your answer: ')
+        int = prompt.string('Your answer: ')
         if int == answer:
-            print('Correct!')
+            right_answer()
         if int != answer:
-            print(f"'{int}' is wrong answer ;(. Correct answer was '{answer}'. \
-                  \n Let's try again, {name}!")
+            print(f'"{int}" is wrong answer ;(. Correct answer was "{answer}". \
+                  \n Let\'s try again, {name}!')
             break
     else:
         finish_game()

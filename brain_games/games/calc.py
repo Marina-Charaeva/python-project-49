@@ -21,9 +21,8 @@ def main_calc():
         number1 = random.randrange(1, 50)
         number2 = random.randrange(1, 50)
         operator = random.choice(list(arithmetic.keys()))
-        question = str(number1) + str(operator) + str(number2)
         answer = str(arithmetic[operator](number1, number2))
-        print(f'Question: {question}')
+        print(f'Question: {number1} {operator} {number2}')
         int = prompt.string('Your answer: ')
         if int == answer:
             right_answer()

@@ -5,7 +5,7 @@ brain-games:
 	uv run brain-games
 
 build:
-	uv build -o python-project-49/dist
+	uv build -o /home/charaeva/python-project-49/dist
 
 package-install:
 	uv tool install --force dist/*.whl

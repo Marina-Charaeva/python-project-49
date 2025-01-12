@@ -9,7 +9,7 @@ def main_prime():
     #  Приветствие пользователя
     name = welcome()
     #  Задание на определение четности числа
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print('Answer \'yes\' if given number is prime. Otherwise answer \'no\'.')
     no_simple = 'no'
     simple = 'yes'
     # Цикл на три попытки

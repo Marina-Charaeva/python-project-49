@@ -3,12 +3,12 @@
 ### Maintainability:
 <a href="https://codeclimate.com/github/Marina-Charaeva/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/db6cee786d3d68676be7/maintainability" /></a>
 ### Video install the package and start the game brain_even:
-https://asciinema.org/a/eHwvh5WWonauz0J2jLh7xkmGV
+[![asciicast](https://asciinema.org/a/xwhZsDmnfW2D9cfwwjAL0gOY4.svg)](https://asciinema.org/a/xwhZsDmnfW2D9cfwwjAL0gOY4)
 ### Video start the game brain_calc:
-https://asciinema.org/a/9ZwupGQuo2TAHOfWY9T0bfd1Y
+[![asciicast](https://asciinema.org/a/uSG3zmC97gI4dHtRlUo18lGfD.svg)](https://asciinema.org/a/uSG3zmC97gI4dHtRlUo18lGfD)
 ### Video start the game brain_gcd:
-https://asciinema.org/a/fQJJBSzNmNSbrP0xynNneKlq0
+[![asciicast](https://asciinema.org/a/7rxOojnhGEanAjMUkvVT9z6Qm.svg)](https://asciinema.org/a/7rxOojnhGEanAjMUkvVT9z6Qm)
 ### Video start the game brain_progression:
-https://asciinema.org/a/CncpoZuUyeGvD01Irj896qN7j
+[![asciicast](https://asciinema.org/a/q80pgHlzJIBsYKDA2jRlrHAMU.svg)](https://asciinema.org/a/q80pgHlzJIBsYKDA2jRlrHAMU)
 ### Video start the game brain_prime:
-https://asciinema.org/a/qm9bx0bKDskTYmki0NvPVacQU
+[![asciicast](https://asciinema.org/a/6UiiyrjU1e2YyPd3o4aWM7E6c.svg)](https://asciinema.org/a/6UiiyrjU1e2YyPd3o4aWM7E6c)
